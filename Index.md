@@ -45,5 +45,5 @@ model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(X_train, y_train, epochs=10, batch_size=32)
 
 El proceso matemático para este tipo de red neuronal es:
-![Texto alternativo](Git_Hub.pdf)
+![Texto alternativo](Git_Hub_1.png)
 
