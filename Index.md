@@ -14,7 +14,13 @@ El funcionamiento de una red neuronal se basa en principios matemáticos fundame
 ## Algunos ejemplos de aplicaciones de redes neuronales:
 
 - Reconocimiento de imágenes: Las redes neuronales se utilizan para reconocer objetos, caras o patrones en imágenes. Por ejemplo, se pueden entrenar redes neuronales para reconocer gatos en fotografías.
+
+![Texto alternativo](vision_artificial.png)
+
 - Procesamiento del lenguaje natural: Las redes neuronales se utilizan en tareas como traducción automática, análisis de sentimientos, generación de texto, entre otros. Por ejemplo, los chatbots y los asistentes virtuales utilizan redes neuronales para entender y responder a las preguntas en lenguaje natural.
+
+![Texto alternativo](nlp.jpg)
+
 - Pronóstico y predicción: Las redes neuronales se pueden utilizar para predecir valores futuros en series de tiempo, como el precio de las acciones, la demanda de productos, el clima, entre otros.
 - Reconocimiento de voz: Las redes neuronales se emplean en sistemas de reconocimiento de voz para convertir el habla en texto o para identificar comandos de voz en dispositivos inteligentes.
 - Conducción autónoma: Las redes neuronales se utilizan en vehículos autónomos para reconocer objetos en tiempo real, tomar decisiones de conducción y controlar los sistemas de navegación.
@@ -22,7 +28,13 @@ El funcionamiento de una red neuronal se basa en principios matemáticos fundame
 ## Esquema general que involucra las redes neuronales:
 
 1. Recopilación y preparación de datos: En esta etapa, se recopilan los datos relevantes para el problema que se desea resolver. Los datos pueden provenir de diferentes fuentes, como bases de datos, archivos, sensores, etc. Además, es necesario preparar los datos para que estén en un formato adecuado para su procesamiento por una red neuronal. Esto puede incluir la limpieza de datos, la normalización, la codificación de variables categóricas, etc.
+
+![Texto alternativo](Big_Query.png)
+
 2. Diseño de la arquitectura de la red: En esta etapa, se define la estructura de la red neuronal, incluyendo el número de capas, la cantidad de neuronas en cada capa, la función de activación, etc. Esto depende en gran medida del tipo de problema que se está abordando y los datos disponibles.
+
+![Texto alternativo](disenyo_arquitectura.png)
+
 3. Entrenamiento de la red: En esta etapa, se utiliza un algoritmo de aprendizaje para ajustar los parámetros de la red neuronal. Se presenta a la red los datos de entrenamiento junto con las salidas esperadas, y la red ajusta sus conexiones ponderadas para minimizar la diferencia entre las salidas predichas y las salidas esperadas. Este proceso se repite iterativamente hasta que la red alcanza un nivel satisfactorio de precisión en la tarea.
 4. Validación y ajuste: Después del entrenamiento, se utiliza un conjunto de datos separado, llamado conjunto de validación, para evaluar el rendimiento de la red neuronal. Esto permite ajustar los hiperparámetros de la red, como la tasa de aprendizaje o el número de capas ocultas, con el fin de mejorar el rendimiento.
 5. Evaluación y predicción: Una vez que la red neuronal ha sido entrenada y ajustada, se puede utilizar para hacer predicciones o clasificaciones en nuevos datos. La red recibe las entradas y genera salidas basadas en los patrones aprendidos durante el entrenamiento.
