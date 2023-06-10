@@ -6,6 +6,7 @@ Maestría en Ciencia de Datos
 Una red neuronal es un modelo computacional inspirado en el funcionamiento del cerebro humano. Está compuesta por un conjunto interconectado de unidades básicas llamadas neuronas artificiales o nodos, que trabajan en conjunto para resolver problemas de manera paralela y aprender a partir de los datos.
 
 Cada neurona artificial en una red neuronal está conectada a otras neuronas mediante enlaces o conexiones ponderadas. Estos enlaces representan la fuerza de la conexión entre las neuronas y se utilizan para transmitir señales entre ellas. Cada neurona recibe una o varias entradas, las procesa mediante una función de activación y produce una salida que puede ser enviada como entrada a otras neuronas.
+![Texto alternativo](Redes_neuronales_esquema.png)
 
 Las redes neuronales pueden tener diferentes arquitecturas, pero una de las más comunes es la red neuronal feedforward o red neuronal de alimentación directa. En este tipo de red, las señales fluyen en una sola dirección, desde las capas de entrada, pasando por una o varias capas ocultas, hasta llegar a la capa de salida.
 
