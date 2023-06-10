@@ -52,6 +52,9 @@ Problema de interés: Predicción de Bitcoin
 
 Para predecir los precios de la criptomoneda Bitcoin basados en un conjunto de datos, usaré el modelo de Redes Neuronales Recurrentes, las cuales están específicamente diseñadas para el análisis de tiempo. Las redes neuronales recurrentes son adecuadas para modelar dependencias secuenciales y son ampliamente utilizadas en este tipo de problemas de predicción de series de tiempo.
 
+<img src="rnn.png" alt="Texto alternativo" width="50%" />
+
+
 Dentro de las Redes Neuronales Recurrentes, se encuentran las redes neuronales LSTM, que en inglés significa Long Short-Term Memory (Memoria a Corto y Largo Plazo). Estas son muy efectivas en el modelado de secuencias a largo plazo y evitan el problema del desvanecimiento del gradiente. La arquitectura básica de una red neuronal LSTM incluye celdas de memoria que permiten recordar información a largo plazo y puertas de entrada, salida y olvido que controlan el flujo de información en la red.
 
 Ejemplo de código de una red neuronal LSTM:
@@ -65,6 +68,15 @@ model.add(Dense(units=1))
 
 model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(X_train, y_train, epochs=10, batch_size=32)
+
+Utilizando la red neuronal LSTM(Lon Short-Term Memory) junto con el dataset de Kaggle "Bitcoin Historical data set", que cuenta con los registros del precio de bitcoin a lo largo del tiempo, con esto podre entrenar y evaluar el modelo de prediccion de los precios.
+
+<img src="Kaggle_bitcoin.png" alt="Texto alternativo" width="70%" />
+
+El conjunto de datos contiene informacion de los precios de la moneda como el precio de apertura, el precio de cierre, el precio maximo, el precio minimo y el volumen de transacciones.
+El primer paso sera analizar de manera exploratoria el conjunto de datos para comprender la distribucion, las tendencias y caracteristicas de los datos.
+EL segundo paso sera realizar una limpieza a los datos para poder trabajar con ellos y entrenar a la red neuronal. Ya realizados estos dos pasos podemos comenzar a crear y entrenar a la red neuronal utilizando una biblioteca como Keras o PyTorch, se entrena el modelo y se realizan los ajustes para optimizar el rendimiento de la red.
+Lo siguiente sera validar el modelo utilizando el conjunto de datos de prueba y evaluaremos su rendimiento utilizando las metricas adecuadas, como el error medio cuadratico(MSE) o el coeficiente de determinacion (R^2), se analizan los resultadoss y aplicare ajustes de ser necesarios. Ahora lo siguiente es utilizar el modelo entrenado para realizar las predicciones de la moneda para comparar las predicciones con los valores reales y poder observar la precision del modelo.
 
 <img src="Proceso_Mate_1.png" alt="Texto alternativo" width="70%" />
 <img src="Proceso_Mate_2.png" alt="Texto alternativo" width="70%" />
